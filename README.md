@@ -31,3 +31,10 @@ curl -L http://bit.ly/dodocker-linux | bash -s -- $(pwd)
 docker run --rm -it -v $(pwd):$(pwd) iankoulski/tree $(pwd)
 ```
 
+## Tests
+
+**hello-world** - test run a small docker container
+```
+docker run --rm -it hello-world
+```
+
