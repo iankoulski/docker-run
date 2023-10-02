@@ -38,3 +38,5 @@ docker run --rm -it -v $(pwd):$(pwd) iankoulski/tree $(pwd)
 docker run --rm -it hello-world
 ```
 
+# Acknowledgement
+This repository builds on containers and github projects contributed by others and does not claim credit for their work.Users of this repository are responsible for complying with the license terms associated with the software running in their containers.
